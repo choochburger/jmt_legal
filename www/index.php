@@ -26,7 +26,6 @@
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
     <![endif]-->
-
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -39,7 +38,7 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="#service">Practice Areas/Service</a></li>
+              <li><a href="#practice-areas">Practice Areas/Service</a></li>
               <li><a href="#profile">Profile</a></li>
               <li><a href="#clients">Clients</a></li>
               <li><a href="#contact">Contact</a></li>
@@ -51,36 +50,16 @@
 
     <div class="container">
 
-      <div class="hero-unit hidden-phone center clearfix">
-        <div class="span2">
-          <img class="john" width="160" src="img/jmt.jpg">
-        </div>
-        <div class="span9">
-          <h1 class="flexible">
-            Welcome to the Law Office of John M. Trani.
-          </h1>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="span6">
-          <h2>Badass Heading:</h2>
-          <p>The Law Office of John M. Trani focuses on counseling clients and litigating disputes in the areas of Intellectual Property and Brand Management (Trademark &amp; Copyright), Business/Corporate, Immigration, Entertainment and Employment. The Law Office of John M. Trani provides legal counsel and representation to both individuals and small and mid-sized entertainment, non-profit, start-up and new media businesses.</p>
-          <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
-       </div>
-        <div class="span6">
-          <h2>Areas of Practice:</h2>
-          <ul>
-            <li>Intellectual Property and Brand Management (Trademark &amp; Copyright)</li>
-            <li>Business/Corporate</li>
-            <li>Immigration</li>
-            <li>Entertainment</li>
-            <li>Employment &amp; Labor</li>
-          </ul>
-          <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
-        </div>
-      </div>
-
+      <?php include 'home.html' ?>
+      <hr>
+      <?php include 'practice_areas.html' ?>
+      <hr>
+      <?php include 'profile.html' ?>
+      <hr>
+      <?php include 'clients.html' ?>
+      <hr>
+      <?php include 'contact.html' ?>
       <hr>
 
       <footer>

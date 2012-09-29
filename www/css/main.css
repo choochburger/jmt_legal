@@ -30,3 +30,25 @@ h1, h2, h3 {
     font-size: 16px;
   }
 }
+
+li p.lead {
+  margin-bottom: 2px;
+}
+
+/**
+ * Sections
+ **/
+
+#home .lead {
+  font-size: 18px;
+}
+
+@media (min-width: 767px) {
+  #practice-areas h4 {
+    min-height: 40px;
+  }
+}
+
+.section {
+  margin-bottom: 80px;
+}
