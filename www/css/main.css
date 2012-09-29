@@ -1,5 +1,5 @@
 body {
-  background: #fff url("/img/bg.png");
+  background: #fff url("img/bg.png");
 }
 
 h1, h2, h3 {
@@ -7,7 +7,7 @@ h1, h2, h3 {
 }
 
 .hero-unit {
-  background: #eee url("/img/grid.png");
+  background: #eee url("img/grid.png");
   box-shadow: 3px 3px 3px rgba(50,50,50,0.2);
   padding: 20px;
 }
