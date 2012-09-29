@@ -1,3 +1,32 @@
+body {
+  background: #fff url("/img/bg.png");
+}
+
+h1, h2, h3 {
+  text-shadow: 1px 1px 1px rgba(60,60,60,0.2);
+}
+
+.hero-unit {
+  background: #eee url("/img/grid.png");
+  box-shadow: 3px 3px 3px rgba(50,50,50,0.2);
+  padding: 20px;
+}
+
+.hero-unit h1 {
+  font-size: 52px;
+  margin-top: 40px;
+}
+
 .center {
   text-align: center;
+}
+
+.john {
+  border-radius: 4px;
+}
+
+@media (max-width: 767px) {
+  .navbar .brand {
+    font-size: 16px;
+  }
 }
