@@ -35,20 +35,37 @@ li p.lead {
   margin-bottom: 2px;
 }
 
+footer {
+  margin-top: 600px;
+}
+
 /**
  * Sections
  **/
+
+.section {
+  margin-bottom: 80px;
+}
+
+.section .btn.home {
+  float: right;
+}
 
 #home .lead {
   font-size: 18px;
 }
 
 @media (min-width: 767px) {
+  #home .right-border {
+    border-right: 1px solid #eee;
+    margin-right: -1px;
+  }
+
+  #home .right-border p {
+    padding-right: 12px;
+  }
+
   #practice-areas h4 {
     min-height: 40px;
   }
-}
-
-.section {
-  margin-bottom: 80px;
 }

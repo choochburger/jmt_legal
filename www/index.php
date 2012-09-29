@@ -37,7 +37,7 @@
           <a class="brand" href="#">The Law Office of John M. Trani</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
+              <li class="active"><a href="#home">Home</a></li>
               <li><a href="#practice-areas">Practice Areas/Service</a></li>
               <li><a href="#profile">Profile</a></li>
               <li><a href="#clients">Clients</a></li>
@@ -60,7 +60,6 @@
       <?php include 'clients.html' ?>
       <hr>
       <?php include 'contact.html' ?>
-      <hr>
 
       <footer>
           <p>&copy; JMT Legal 2012</p>
@@ -72,14 +71,16 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
 
     <script src="js/vendor/bootstrap.min.js"></script>
-
+    <script src="js/jquery.smooth-scroll.min.js"></script>
     <script src="js/main.js"></script>
 
     <script>
+      /*
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
+      */
     </script>
   </body>
 </html>
