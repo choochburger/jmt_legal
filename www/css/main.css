@@ -1,9 +1,16 @@
 body {
   background: #fff url("../img/bg.png");
+  font-family: 'Signika', sans-serif;
+  line-height: 22px;
+  font-size: 16px;
 }
 
-h1, h2, h3 {
-  text-shadow: 1px 1px 1px rgba(60,60,60,0.2);
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 1px 1px 1px rgba(60,60,60,0.1);
+}
+
+p, li {
+  color: #444;
 }
 
 .hero-unit {
