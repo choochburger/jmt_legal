@@ -51,15 +51,21 @@
     <div class="container">
 
 
-      <?php include 'home.html' ?>
-      <hr>
-      <?php include 'practice_areas.html' ?>
-      <hr>
-      <?php include 'profile.html' ?>
-      <hr>
-      <?php include 'clients.html' ?>
-      <hr>
-      <?php include 'contact.html' ?>
+      <div class="section" id="home" style="display: none">
+        <?php include 'home.html' ?>
+      </div>
+      <div class="section" id="practice-areas" style="display: none">
+        <?php include 'practice_areas.html' ?>
+      </div>
+      <div class="section" id="profile" style="display: none">
+        <?php include 'profile.html' ?>
+      </div>
+      <div class="section" id="clients" style="display: none">
+        <?php include 'clients.html' ?>
+      </div>
+      <div class="section" id="contact" style="display: none">
+        <?php include 'contact.html' ?>
+      </div>
 
       <footer>
           <p>&copy; JMT Legal 2012</p>
@@ -71,7 +77,6 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
 
     <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/jquery.smooth-scroll.min.js"></script>
     <script src="js/main.js"></script>
 
     <script type="text/javascript">
