@@ -37,7 +37,6 @@
           <a class="brand" href="#">The Law Office of John M. Trani</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#home">Home</a></li>
               <li><a href="#practice-areas">Practice Areas/Service</a></li>
               <li><a href="#profile">Profile</a></li>
               <li><a href="#clients">Clients</a></li>

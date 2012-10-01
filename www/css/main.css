@@ -23,6 +23,8 @@ h1, h2, h3 {
 
 .john {
   border-radius: 4px;
+  float: left;
+  margin: 0 20px 20px 0;
 }
 
 @media (max-width: 767px) {
@@ -37,10 +39,6 @@ h1, h2, h3 {
 
 li p.lead {
   margin-bottom: 2px;
-}
-
-footer {
-  margin-top: 600px;
 }
 
 /**
