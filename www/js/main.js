@@ -24,6 +24,9 @@ var JMT = {
     $('.navbar .active').removeClass('active');
     $('a[href="'+section+'"]').closest('li')
                               .addClass('active');
+
+    // scroll to top for mobile
+    $(document).scrollTop(0);
   }
 };
 
