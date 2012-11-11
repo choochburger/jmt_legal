@@ -53,6 +53,11 @@
 
       <div class="section" id="home" style="display: none">
         <?php include 'home.html' ?>
+        <?php include 'shared/social-networks.html' ?>
+        <div class="row">
+          <div class="span12 center">
+          </div>
+        </div>
       </div>
       <div class="section" id="practice-areas" style="display: none">
         <?php include 'practice_areas.html' ?>
@@ -65,9 +70,11 @@
       </div>
       <div class="section" id="contact" style="display: none">
         <?php include 'contact.html' ?>
+        <?php include 'shared/social-networks.html' ?>
       </div>
 
-      <footer>
+      <footer class="center">
+          <p>170 State Street, #2E | Brooklyn, NY 11201 | Phone: 347.549.4115 | E-mail: <a href="mailto:info@jmt-legal.com">info@jmt-legal.com</a></p>
           <p>&copy; JMT Legal 2012</p>
       </footer>
 

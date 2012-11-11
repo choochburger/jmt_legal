@@ -53,7 +53,7 @@ li p.lead {
  **/
 
 .section {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .section .btn.home {
@@ -77,4 +77,33 @@ li p.lead {
   #practice-areas h4 {
     min-height: 40px;
   }
+}
+
+/**
+ * Social Networking Icons
+ **/
+
+.social-icon {
+  background: url('../img/social-icons.png');
+  background-repeat: no-repeat;
+  background-size: 268px;
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+}
+
+.social-icon.linkedin {
+  background-position-x: 0;
+}
+
+.social-icon.twitter {
+  background-position-x: -68px;
+}
+
+.social-icon.blog {
+  background-position-x: -136px;
+}
+
+.social-icon.facebook {
+  background-position-x: -204px;
 }
