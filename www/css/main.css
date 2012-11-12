@@ -107,3 +107,7 @@ li p.lead {
 .social-icon.facebook {
   background-position-x: -204px;
 }
+
+form input, form textarea {
+  width: 100%;
+}

@@ -1,11 +1,24 @@
 <?php 
-  if ($_POST) {    
-    $name  = $_POST['name'];    
-    $email = $_POST['email'];    
-    $text  = $_POST['text'];       
+  if ($_POST) {
+    $name  = filter_var( strip_tags($_POST['name'], FILTER_SANITIZE_STRING) );
+    $email = filter_var( strip_tags($_POST['email'], FILTER_SANITIZE_EMAIL) );
+    $text  = filter_var( strip_tags($_POST['text'], FILTER_SANITIZE_STRING) );
 
-    //send email    
-    //mail("RECIPIENT ADDRESS", "SUBJECT", $text, "From:" . $email); 
-    echo 'Got it';
+    $response = array();
+
+    if ($name.length  == '' || 
+        $email.length == '' || 
+        $text.length  == ''   ) {
+
+      $response['status']  = 'error';
+      $response['message'] = 'All values are require. Please fill out the entire form.';
+
+      die(json_encode($response));
+    }
+
+    mail("lyons.chr@gmail.com", "JMT Legal contact form submission", $text, "From:" . $email); 
+
+    $response['status'] = 'success';
+    echo json_encode($response);
   } 
 ?>

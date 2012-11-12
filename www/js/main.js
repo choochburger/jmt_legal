@@ -31,6 +31,8 @@ var JMT = {
   },
 
   initForm: function() {
+    var showError;
+
     $(function() {
       $("#contact .button").click(function() {
         var name  = $("#form_name").val(),
@@ -39,7 +41,7 @@ var JMT = {
             dataString = 'name=' + name + '&email=' + email + '&text=' + text;
 
         if (!name.length || !email.length || !text.length) {
-          alert('Please fill out all fields');
+          showError('Please fill out all fields.');
           return false;
         }
 
@@ -47,16 +49,29 @@ var JMT = {
           type: "POST",
           url: "send_email.php",
           data: dataString,
-          success: function() {
-            $('form.success').fadeIn(1000);
+          success: function(e) {
+            var e = JSON.parse(e);
+            if (e.status === 'error') {
+              showError(e.message);
+              return;
+            }
+
+            $('.email.error').hide();
+            $('.email.success').fadeIn(1000);
+            $('#contact .button').fadeOut();
           },
-          error: function() {
-            console.log(arguments);
+          error: function(e) {
+            showError(e.message);
           }
         });
 
         return false;
       });
+
+      showError = function(msg) {
+          $('.email.error').text(msg)
+                           .fadeIn(1000);
+      };
     });
   }
 };
