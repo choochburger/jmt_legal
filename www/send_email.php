@@ -16,7 +16,7 @@
       die(json_encode($response));
     }
 
-    mail("lyons.chr@gmail.com", "JMT Legal contact form submission", $text, "From:" . $email); 
+    mail("info@jmt-legal.com", "JMT Legal contact form submission", $text, "From:" . $email); 
 
     $response['status'] = 'success';
     echo json_encode($response);
