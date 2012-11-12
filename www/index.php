@@ -73,6 +73,8 @@
         <?php include 'shared/social-networks.html' ?>
       </div>
 
+      <hr>
+
       <footer class="center">
           <p>170 State Street, #2E | Brooklyn, NY 11201 | Phone: 347.549.4115 | E-mail: <a href="mailto:info@jmt-legal.com">info@jmt-legal.com</a></p>
           <p>&copy; JMT Legal 2012</p>
