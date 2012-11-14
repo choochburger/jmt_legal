@@ -6,9 +6,9 @@
 extensive experience with intellectual property and brand management, business and
 entertainment transactions, immigration matters and general litigation.</p>
 
-<p>Before founding his own law firm, Mr. Trani was an associate at the Ross &amp; Asmar LLC,
-a general litigation firm. During his time at Ross &amp; Asmar LLC, Mr. Trani litigated a
-variety of cases involving intellectual property, business, immigration and labor and
+<p>Before founding his own law firm, Mr. Trani was an associate at Ross &amp; Asmar LLC,
+a general practice. During his time at Ross &amp; Asmar LLC, Mr. Trani litigated a
+variety of cases and counseled on transactions involving intellectual property, business, immigration and labor and
 employment matters.</p>
 
 <p>He also served as a law clerk at the Federal Department of Labor and for the Honorable
@@ -32,5 +32,5 @@ Law School.</p>
 Trani is a member of the New York State Bar Association, New York County Lawyers’
 Association and the Brooklyn Bar Association.</p>
 
-<p>Mr. Trani is currently the General Counsel of Carrot Creative, LLC, the best social
-media/digital marketing agency in the world.</p>
+<p>Mr. Trani is currently the General Counsel of Carrot Creative, LLC, a digital and 
+new-media marketing agency focusing social media.</p>
