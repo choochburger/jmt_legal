@@ -1,9 +1,9 @@
-<h2>Clients</h2>
+<h2>Client Sample (current and former)</h2>
 
 <div class="row">
   <div class="span3 well">
     <h4>5boro Industries, Inc:</h4>
-    <p>5boro Skateboards is a leading manufacturer of skateboards, accessories and apparel based in New York City. 5boro embodies the heart and soul of skateboarding and has the distinct honor of being the longest-running, independently owned-and-operated skateboard company in New York City history.</p>
+    <p>5boro Skateboards is a leading manufacturer of skateboards, accessories and apparel and is the longest-running, independently owned-and-operated skateboard company in New York City.</p>
     <img src="img/clients/5boro.jpg">
   </div>
   <div class="span3 well">
@@ -12,9 +12,9 @@
     <img src="img/clients/carrotcreative_medium.jpg">
   </div>
   <div class="span3 well">
-    <h4>Turnstyle Music Group:</h4>
-    <p>Turnstyle Music Group is New York City's premiere concert promoting agency. It books high quality, original entertainment for NYC music venues.</p>
-    <img src="img/clients/turnstyle.jpg">
+    <h4>Demonstrous Productions:</h4>
+    <p>"Demonstrous Productions is a media development and production company, providing film and photography, design and fabrication, post-production and motion graphics services.</p>
+    <img src="img/clients/demonstrous.jpg">
   </div>
 </div>
 <div class="row">
@@ -47,6 +47,11 @@
     <h4>Trees on Fire:</h4>
     <p>Trees on Fire is an eco-band out of Virginia that has taken environmental action through its music. The band has raised awareness for the Sierra Club, Appalachian Voices, Atchafalaya Basinkeeper, Building Goodness Foundation, Climate Ride and the Chesapeake Climate Action Network.</p>
     <img src="img/clients/treesonfire.jpg">
+  </div>
+  <div class="span3 well">
+    <h4>Turnstyle Music Group:</h4>
+    <p>Turnstyle Music Group is New York City's premiere concert promoting agency. It books high quality, original entertainment for NYC music venues.</p>
+    <img src="img/clients/turnstyle.jpg">
   </div>
 </div>
 

@@ -48,16 +48,6 @@
 </div> <!-- /row -->
 <div class="row">
   <div class="span3 well">
-    <h4>Immigration:</h4>
-
-    <ul>
-      <li>Visas (H-1B, E-1, E-2, L1, O-1, Etc.)</li>
-      <li>Green Cards (Family Sponsored/Work Based)</li>
-      <li>U.S. Citizenship</li>
-      <li>Deportation and Removal Litigation</li>
-    </ul>
-  </div>
-  <div class="span3 well">
     <h4>Entertainment:</h4>
 
     <ul>
@@ -66,6 +56,16 @@
       <li>Television</li>
       <li>Publishing</li>
       <li>Multimedia</li>
+    </ul>
+  </div>
+  <div class="span3 well">
+    <h4>Immigration:</h4>
+
+    <ul>
+      <li>Visas (H-1B, E-1, E-2, L1, O-1, Etc.)</li>
+      <li>Green Cards (Family Sponsored/Work Based)</li>
+      <li>U.S. Citizenship</li>
+      <li>Deportation and Removal Litigation</li>
     </ul>
   </div>
 </div> <!-- /row -->

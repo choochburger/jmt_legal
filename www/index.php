@@ -18,7 +18,17 @@
       }
     </style>
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-    <link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+
+    <?php
+      $fontFamily = 'Lora';
+      
+      if ($_GET['font']) $fontFamily = $_GET['font'];
+
+      echo '<link href="http://fonts.googleapis.com/css?family='.$fontFamily.'" rel="stylesheet" type="text/css">';
+      echo '<style>body { font-family: '.$fontFamily.', sans-serif }</style>';
+    ?>
+
+
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
@@ -52,32 +62,31 @@
 
 
       <div class="section" id="home" style="display: none">
-        <?php include 'home.html' ?>
-        <?php include 'shared/social-networks.html' ?>
+        <?php include 'home.php' ?>
         <div class="row">
           <div class="span12 center">
           </div>
         </div>
       </div>
       <div class="section" id="practice-areas" style="display: none">
-        <?php include 'practice_areas.html' ?>
+        <?php include 'practice_areas.php' ?>
       </div>
       <div class="section" id="profile" style="display: none">
-        <?php include 'profile.html' ?>
+        <?php include 'profile.php' ?>
       </div>
       <div class="section" id="clients" style="display: none">
-        <?php include 'clients.html' ?>
+        <?php include 'clients.php' ?>
       </div>
       <div class="section" id="contact" style="display: none">
-        <?php include 'contact.html' ?>
-        <?php include 'shared/social-networks.html' ?>
+        <?php include 'contact.php' ?>
+        <?php include 'shared/social_networks.php' ?>
       </div>
 
       <hr>
 
       <footer class="center">
           <p>170 State Street, #2E | Brooklyn, NY 11201 | Phone: 347.549.4115 | E-mail: <a href="mailto:info@jmt-legal.com">info@jmt-legal.com</a></p>
-          <p>&copy; JMT Legal 2012</p>
+          <p>The Law Office of John M. Trani PLLC &copy; All rights reserved. Attorney advertising.</p>
       </footer>
 
     </div> <!-- /container -->
