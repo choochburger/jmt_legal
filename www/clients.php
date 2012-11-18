@@ -13,7 +13,7 @@
   </div>
   <div class="span3 well">
     <h4>Demonstrous Productions:</h4>
-    <p>"Demonstrous Productions is a media development and production company, providing film and photography, design and fabrication, post-production and motion graphics services.</p>
+    <p>Demonstrous Productions is a media development and production company, providing film and photography, design and fabrication, post-production and motion graphics services.</p>
     <img src="img/clients/demonstrous.jpg">
   </div>
 </div>

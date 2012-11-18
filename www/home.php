@@ -7,7 +7,7 @@
 <div class="row">
   <div class="span6 right-border">
     <h2>Firm Overview:</h2>
-    <p class="lead">The Law Office of John M. Trani focuses on counseling clients and litigating disputes in the areas of Intellectual Property and Brand Management (Trademark &amp; Copyright), Business/Corporate, Immigration, Entertainment and Employment. The Law Office of John M. Trani provides legal counsel and representation to both individuals and small and mid-sized entertainment, non-profit, start-up and new media businesses.</p>
+    <p class="lead">The Law Office of John M. Trani focuses on counseling clients and litigating disputes in the areas of Intellectual Property and Brand Management (Trademark &amp; Copyright), Business/Corporate, Entertainment, Employment and Immigration. The Law Office of John M. Trani provides legal counsel and representation to both individuals and small and mid-sized entertainment, non-profit, start-up and new media businesses.</p>
     <?php include 'shared/social_networks.php' ?>
  </div>
   <div class="span6">
