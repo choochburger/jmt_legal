@@ -51,7 +51,7 @@
     <div class="container">
 
 
-      <div class="section" id="home" style="display: none">
+      <div class="section" id="home">
         <?php include 'home.php' ?>
         <div class="row">
           <div class="span12 center">
