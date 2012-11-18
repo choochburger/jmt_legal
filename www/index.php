@@ -19,16 +19,6 @@
     </style>
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 
-    <?php
-      $fontFamily = 'Lora';
-      
-      if ($_GET['font']) $fontFamily = $_GET['font'];
-
-      echo '<link href="http://fonts.googleapis.com/css?family='.$fontFamily.'" rel="stylesheet" type="text/css">';
-      echo '<style>body { font-family: '.$fontFamily.', sans-serif }</style>';
-    ?>
-
-
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>

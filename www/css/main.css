@@ -1,10 +1,18 @@
 body {
   background: #fff url("../img/bg.png");
+  font-family: Helvetica, serif;
   line-height: 22px;
   font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+@font-face {
+  font-family: "Clarendon";
+  src: url("fonts/Clarendon.eot"); /* IE */
+  src: url("fonts/Clarendon.ttf") format("truetype"); /* non-IE */
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  font-family: Clarendon, Helvetica, serif;
   text-shadow: 1px 1px 1px rgba(60,60,60,0.1);
 }
 
