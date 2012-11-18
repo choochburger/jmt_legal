@@ -93,19 +93,19 @@ li p.lead {
 }
 
 .social-icon.linkedin {
-  background-position-x: 0;
+  background-position: 0 0;
 }
 
 .social-icon.twitter {
-  background-position-x: -68px;
+  background-position: -68px 0px;
 }
 
 .social-icon.blog {
-  background-position-x: -136px;
+  background-position: -136px 0px;
 }
 
 .social-icon.facebook {
-  background-position-x: -204px;
+  background-position: -204px 0;
 }
 
 form input, form textarea {
