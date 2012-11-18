@@ -6,14 +6,21 @@ body {
 }
 
 @font-face {
-  font-family: "Clarendon";
-  src: url("fonts/Clarendon.eot"); /* IE */
-  src: url("fonts/Clarendon.ttf") format("truetype"); /* non-IE */
+    font-family: 'Clarendon';
+    src: url('clarendon.eot');
+    src: url('clarendon.eot?#iefix') format('embedded-opentype'),
+         url('clarendon.woff') format('woff'),
+         url('clarendon.ttf') format('truetype'),
+         url('clarendon.svg#clarendon') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1, h2, h3, h4, h5, h6, .navbar {
   font-family: Clarendon, Helvetica, serif;
   text-shadow: 1px 1px 1px rgba(60,60,60,0.1);
+  font-style: normal;
+  font-weight: normal;
 }
 
 p, li {
