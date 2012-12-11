@@ -4,7 +4,7 @@
 
 <p>John M. Trani is the principal of The Law Office of John M. Trani. Mr. Trani focuses his practice on
 intellectual property and brand management, business and entertainment transactions, immigration matters
-and general litigation. In addition, Mr. Trani is the General Counsel of <a href="http://www.carrotcreative.com">Carrot Creative, LLC</a>, a digital and
+and general litigation. In addition, Mr. Trani is the General Counsel of <a href="http://www.carrotcreative.com" target="_blank">Carrot Creative, LLC</a>, a digital and
 new-media marketing agency focusing on social media.</p>
 
 <p>Before founding his own law firm, Mr. Trani was an associate at Ross &amp; Asmar LLC, a general practice.
