@@ -15,13 +15,11 @@
     <ul>
       <li>
         <p class="lead">Intellectual Property and Brand Management (Trademark &amp; Copyright)</p>
-        <!--
         <ul>
           <li>
             <a href="http://www.trademarkyourcompany.com" target="_blank">Trademark Your Company Now</a>
           </li>
         </ul>
-        -->
       </li>
       <li><p class="lead">Business/Corporate</p></li>
       <li><p class="lead">Litigation</p></li>
