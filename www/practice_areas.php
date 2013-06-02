@@ -1,3 +1,61 @@
+<div class="spacer">
+  <h4>Areas Of Practice</h4>
+</div>
+
+<div class='row demo-tiles'>
+  
+  <div class='span3'>
+    <div class='tile'>
+      <h4 class='tile-title'>
+        Intellectual Property
+      </h4>
+      <p>
+        Searches, Filing, Defense, Licensing and more.
+      </p>
+    </div>
+  </div>
+
+  <div class='span3'>
+    <div class='tile'>
+      <h4 class='tile-title'>
+        Business/Corporate
+      </h4>
+      <p>
+        Contracts, Entity Formation, Agreements and more
+      </p>
+    </div>
+  </div>
+
+  <div class='span3'>
+    <div class='tile'>
+      <h4 class='tile-title'>
+        Litigation
+      </h4>
+      <p>
+        Disputes, IP Infrigement, Libel, Employment and more.
+      </p>
+    </div>
+  </div>
+
+  <div class='span3'>
+    <div class='tile'>
+      <h4 class='tile-title'>
+        Entertainment
+      </h4>
+      <p>
+        Music, Film, Television, Multimedia and more.
+      </p>
+    </div>
+  </div>
+</div>
+<div class='row'>
+  <div class='span12'>
+    <a href='#' class='btn btn-large btn-block btn-success'>
+      Learn More
+    </a>
+  </div>
+</div>
+<!-- 
 <h1>Practice Areas/Services</h1>
 
 <div class="row">
@@ -45,7 +103,7 @@
       <li>Employment and Labor</li>
     </ul>
   </div>
-</div> <!-- /row -->
+</div>
 <div class="row">
   <div class="span3 well">
     <h4>Entertainment:</h4>
@@ -68,4 +126,5 @@
       <li>Deportation and Removal Litigation</li>
     </ul>
   </div>
-</div> <!-- /row -->
+</div>
+ -->

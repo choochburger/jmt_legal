@@ -1,32 +1,31 @@
-<div class="hero-unit center clearfix">
-  <h1 class="flexible">
-    Welcome to the Law Office <br>of John M. Trani
-  </h1>
+<div class="row" id="hero">
+  <div class="span12">
+    <h1 class="flexible">
+      The Law Office of John M. Trani
+    </h1>
+    <h4 class="flexible">
+      170 State Stree, #2E Brooklyn, NY 11201 | 347-549-4115 | info@jmt-legal.com
+  </div>
 </div>
 
 <div class="row">
-  <div class="span6 right-border">
-    <h2>Firm Overview:</h2>
-    <p class="lead">The Law Office of John M. Trani focuses on counseling clients and litigating disputes in the areas of Intellectual Property and Brand Management (Trademark &amp; Copyright), Business/Corporate, Entertainment, Employment and Immigration. The Law Office of John M. Trani provides legal counsel and representation to both individuals and small and mid-sized entertainment, non-profit, start-up and new media businesses.</p>
-    <?php include 'shared/social_networks.php' ?>
- </div>
-  <div class="span6">
-    <h2>Areas of Practice:</h2>
-    <ul>
-      <li>
-        <p class="lead">Intellectual Property and Brand Management (Trademark &amp; Copyright)</p>
-        <ul>
-          <li>
-            <a href="http://www.trademarkyourcompany.com" target="_blank">Trademark Your Company Now</a>
-          </li>
-        </ul>
-      </li>
-      <li><p class="lead">Business/Corporate</p></li>
-      <li><p class="lead">Litigation</p></li>
-      <li><p class="lead">Entertainment</p></li>
-      <li><p class="lead">Employment &amp; Labor</p></li>
-      <li><p class="lead">Immigration</p></li>
-    </ul>
-    <p class="center"><a class="btn btn-primary" href="#practice-areas">View details &raquo;</a></p>
+  <div class="span4 right-border">
+    <p>
+      <a href='#profile'><img src='img/jmt.png'></a>
+    </p>
+  </div>
+  <div class="span8" id="lead">
+    <p>
+      Focusing on counseling  clients 
+      and litigating disputes in the areas of Intellectual Property 
+      and Brand Management (Trademark &amp; Copyright), Business/Corporate, 
+      Entertainment, Employment and Immigration. We provide legal counsel 
+      and representation to both individuals and small and mid-sized 
+      entertainment, non-profit, start-up and new media businesses.
+    </p>
+    <p>
+      <a class='btn btn-large disabled'>info@jmt-legal.com</a>
+      <a class='btn btn-large disabled'>(347) 549-4115</a>
+    </p>
   </div>
 </div>

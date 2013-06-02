@@ -1,120 +1,93 @@
 body {
-  background: #fff url("../img/bg.png");
-  font-family: Helvetica, serif;
-  line-height: 22px;
+  background: #fff;
+  font-family: Verdana, sans-serif;
+  line-height: 1.6;
   font-size: 16px;
 }
 
-@font-face {
-    font-family: 'Clarendon';
-    src: url('clarendon.eot');
-    src: url('clarendon.eot?#iefix') format('embedded-opentype'),
-         url('clarendon.woff') format('woff'),
-         url('clarendon.ttf') format('truetype'),
-         url('clarendon.svg#clarendon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-h1, h2, h3, h4, h5, h6, .navbar {
-  font-family: Clarendon, Helvetica, serif;
+h1, h2, h3 {
+  font-family: Times, serif;
   text-shadow: 1px 1px 1px rgba(60,60,60,0.1);
   font-style: normal;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 17px;
+}
+
+p a {
+  color: #3498DB;
+}
+
+p a.btn.disabled {
+  color: #2980B9;
+}
+
+.row {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
   font-weight: normal;
 }
 
-p, li {
-  color: #444;
+.navbar .nav > li > a {
+  font-weight: normal;
 }
 
-.hero-unit {
-  background: #eee url("../img/grid.png");
-  box-shadow: 3px 3px 3px rgba(50,50,50,0.2);
-  padding: 20px;
+.navbar-inverse .brand {
+  border: 0;
+  text-decoration: none;
 }
 
-.hero-unit h1 {
-  font-size: 52px;
-  margin-top: 10px;
+.navbar-inverse .nav > li > a {
+  border: 0;
 }
 
-.center {
+#hero {
   text-align: center;
 }
 
-.john {
-  border-radius: 4px;
-  float: left;
-  margin: 0 20px 20px 0;
+#lead {
+  padding-top: 20px;
 }
 
-@media (max-width: 767px) {
-  .navbar .brand {
-    font-size: 16px;
-  }
-
-  .hero-unit h1 {
-    font-size: 24px;
-  }
+#hero h1 {
+  font-size: 52px;
 }
 
-li p.lead {
-  margin-bottom: 2px;
+.spacer {
+  border-top: 1px solid #BDC3C7;
+  text-align: center;
+  margin-top: 30px;
 }
 
-/**
- * Sections
- **/
-
-.section .btn.home {
-  float: right;
-}
-
-#home .lead {
-  font-size: 18px;
-  margin-bottom: 0;
-}
-
-@media (min-width: 767px) {
-  #home .right-border {
-    border-right: 1px solid #eee;
-    margin-right: -1px;
-  }
-
-  #home .right-border p {
-    padding-right: 12px;
-  }
-}
-
-/**
- * Social Networking Icons
- **/
-
-.social-icon {
-  background: url('../img/social-icons.png');
-  background-repeat: no-repeat;
-  background-size: 268px;
+.spacer h4 {
+  background: #fff;
+  color: #34495E;
+  padding: 5px 20px;
   display: inline-block;
-  height: 64px;
-  width: 64px;
+  position: relative;
+  top: -20px;
 }
 
-.social-icon.linkedin {
-  background-position: 0 0;
+.tile p {
+  font-size: 11px;
 }
 
-.social-icon.twitter {
-  background-position: -68px 0px;
+.tile-title {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 5px;
 }
 
-.social-icon.blog {
-  background-position: -136px 0px;
+#clients #logos {
+  text-align: center;
 }
 
-.social-icon.facebook {
-  background-position: -204px 0;
-}
-
-form input, form textarea {
-  width: 100%;
+#clients #logos img {
+  margin: 15px;
 }

@@ -1,6 +1,6 @@
-<h2>Attorney Profile</h2>
-
-<img src="img/jmt.jpg" width="200" class="john clearfix">
+<div class="spacer">
+  <h4>Attorney Profile</h4>
+</div>
 
 <p>John M. Trani is the principal of The Law Office of John M. Trani. Mr. Trani focuses his practice on
 intellectual property and brand management, business and entertainment transactions, immigration matters
@@ -27,3 +27,18 @@ University, and Southwestern Law School.</p>
 <p>Mr. Trani is admitted to practice before the federal and state courts of New York. Mr. Trani is a member
 of the New York State Bar Association, New York County Lawyers’ Association and the Brooklyn Bar
 Association.</p>
+
+<p>
+  <b>Previous and current clients include:</b>
+  <ul>
+    <li>5BoroNYC</li>
+    <li>Carrot Creative</li>
+    <li>Holstee</li>
+    <li>Demonstrous Productions</li>
+    <li>Skatesian</li>
+    <li>In Exchange</li>
+    <li>Rec Room</li>
+    <li>Turnstyle Music Group</li>
+    <li>Subvrt, LLC</li>
+  </ul>
+</p>

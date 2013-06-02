@@ -13,12 +13,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
       body {
-          padding-top: 60px;
+          padding-top: 70px;
           padding-bottom: 40px;
       }
     </style>
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-
+    <link rel="stylesheet" href="css/flat-ui.css">
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
@@ -35,8 +35,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">The Law Office of John M. Trani</a>
-          <div class="nav-collapse collapse">
+          <a class="brand" href="#">JMT Legal</a>
+          <div class="nav-collapse collapse pull-right">
             <ul class="nav">
               <li><a href="#practice-areas">Practice Areas/Service</a></li>
               <li><a href="#profile">Profile</a></li>
@@ -58,19 +58,17 @@
           </div>
         </div>
       </div>
-      <div class="section" id="practice-areas" style="display: none">
+      <div class="section" id="practice-areas">
         <?php include 'practice_areas.php' ?>
       </div>
-      <div class="section" id="profile" style="display: none">
+      <div class="section" id="profile">
         <?php include 'profile.php' ?>
       </div>
-      <div class="section" id="clients" style="display: none">
-        <?php include 'clients.php' ?>
-      </div>
-      <div class="section" id="contact" style="display: none">
+
+<!--       <div class="section" id="contact">
         <?php include 'contact.php' ?>
         <?php include 'shared/social_networks.php' ?>
-      </div>
+      </div> -->
 
       <hr>
 
