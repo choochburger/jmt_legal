@@ -5,24 +5,39 @@ body {
   font-size: 16px;
 }
 
-h1, h2, h3 {
-  font-family: Times, serif;
+h1, h2 {
+  font-family: "petersburg-web",serif;
   text-shadow: 1px 1px 1px rgba(60,60,60,0.1);
   font-style: normal;
   font-weight: bold;
   line-height: 1.2;
+  color: #2C3E50;
+}
+
+h4 {
+  color: #BDC3C7;
 }
 
 p {
   font-size: 17px;
 }
 
-p a {
-  color: #3498DB;
+p.actions {
+  padding-top: 20px;
 }
 
-p a.btn.disabled {
+p a {
   color: #2980B9;
+}
+
+a.btn.white {
+  background: #fff;
+  color: #1ABC9C;
+  font-weight: normal;
+}
+
+ul {
+  list-style-type:square;
 }
 
 .row {
@@ -34,25 +49,38 @@ p a.btn.disabled {
   font-weight: normal;
 }
 
-.navbar .nav > li > a {
-  font-weight: normal;
+.navbar .navbar-inner {
+  background: #fff;
 }
 
-.navbar-inverse .brand {
-  border: 0;
-  text-decoration: none;
+ul.nav-center {
+  margin: 0 auto;
+  text-align: center;
+  width: 460px;
+  list-style-type: none;
 }
 
-.navbar-inverse .nav > li > a {
-  border: 0;
+ul.nav-center li {
+  float: left;
+  padding: 20px;
+}
+
+.nav-center > li > a {
+  color: #2980B9;
+}
+
+.nav-center > li > a:hover,
+.nav-center .nav > li > a:focus {
+  color: #2C3E50;
 }
 
 #hero {
   text-align: center;
+  padding: 5px 0 15px;
 }
 
 #lead {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 #hero h1 {
@@ -67,11 +95,31 @@ p a.btn.disabled {
 
 .spacer h4 {
   background: #fff;
-  color: #34495E;
+  color: #7F8C8D !important;
   padding: 5px 20px;
   display: inline-block;
   position: relative;
   top: -20px;
+  font-family: 'Verdana', sans-serif !important;
+  font-weight: normal !important;
+  font-size: 14px;
+}
+
+ul.actions {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: 30px;
+}
+
+ul.actions li {
+  margin: 20px;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+ul.actions li img {
+  margin-right: 10px;
 }
 
 .tile p {
@@ -84,10 +132,140 @@ p a.btn.disabled {
   margin-bottom: 5px;
 }
 
-#clients #logos {
+.btn.btn-large {
+  font-size: 20px;
+}
+
+p.clients {
+  margin-top: 20px;
+}
+
+ul.clients {
+  margin-top: 20px;
+}
+
+ul.clients li {
+  margin: 10px 0;
+}
+
+#client-list img {
+  border: 1px solid #ccc;
+}
+
+table#client-list td {
+  padding-bottom: 70px;
+}
+
+#practice-areas ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#practice-areas ul h4 {
+  font-weight: bold;
+}
+
+#practice-areas ul h4 {
+  padding-left: 80px;
+  padding-bottom: 6px;
+  min-height: 28px;
+  line-height: 1.4;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding-top: 16px;
+  font-size: 20px;
+  color: #2C3E50;
+}
+
+#practice-areas ul h4.ip {
+  background-image: url('../img/icons/Bulb.png');
+}
+
+#practice-areas ul h4.bc {
+  background-image: url('../img/icons/Satchel.png');
+}
+
+#practice-areas ul h4.et {
+  background-image: url('../img/icons/Microphone.png');
+}
+
+#practice-areas ul h4.li {
+  background-image: url('../img/icons/Paper.png');
+}
+
+#practice-areas ul h4.im {
+  background: url('../img/icons/ID-Card.png') no-repeat;
+}
+
+#practice-areas ul ul {
+  list-style-type: square;
+  margin-left: 100px;
+}
+
+#practice-areas ul ul li {
+  color: #7F8C8D;
+  margin: 16px auto;
+}
+
+footer {
+  background: #fff;
+  padding: 40px 0;
   text-align: center;
 }
 
-#clients #logos img {
-  margin: 15px;
+@media (min-width: 768px) and (max-width: 979px) {
+  #client-list td.span4 {
+    width: 262px;
+  }
+
+}
+
+@media (max-width: 767px) { 
+  #client-list td.span4 {
+    width: 222px;
+  }
+  #lead .span4 {
+    display: none;
+  }
+
+
+  ul.nav-center {
+    width: auto;
+  }
+
+  ul.nav-center li {
+    float: none;
+    padding: 0 !important;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  ul.nav-center li a {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background: #eee;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+  }
+  #lead {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+
+
+@media (max-width: 480px) { 
+
+  #client-list td.span8 {
+    display: none;
+    width: 0;
+  }
+
+  #client-list, #client-list td.span4 {
+    text-align: center;
+    width: 100%;
+  }
 }

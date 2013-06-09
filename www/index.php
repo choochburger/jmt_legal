@@ -10,40 +10,40 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
+    <script type="text/javascript" src="//use.typekit.net/unj1qih.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-      body {
-          padding-top: 70px;
-          padding-bottom: 40px;
-      }
-    </style>
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
     <link rel="stylesheet" href="css/flat-ui.css">
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+
   </head>
   <body>
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
     <![endif]-->
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse">
       <div class="navbar-inner">
         <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">JMT Legal</a>
-          <div class="nav-collapse collapse pull-right">
-            <ul class="nav">
-              <li><a href="#practice-areas">Practice Areas/Service</a></li>
+          <div class="row" id="hero">
+            <h1 class="flexible">
+              The Law Office of John M. Trani
+            </h1>
+            <h4 class="flexible">
+              170 State Stree, #2E Brooklyn, NY 11201 | 347-549-4115 | info@jmt-legal.com
+            </h4>
+            <p>
+            <ul class="nav-center">
+              <li style="padding-left: 0;"><a href="#practice-areas">Practice Areas</a></li>
               <li><a href="#profile">Profile</a></li>
               <li><a href="#clients">Clients</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li style="padding-right: 0;"><a href="mailto: info@jmt-legal.com">Contact</a></li>
             </ul>
-          </div><!--/.nav-collapse -->
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -64,16 +64,12 @@
       <div class="section" id="profile">
         <?php include 'profile.php' ?>
       </div>
+      <div class="section" id="clients">
+        <?php include 'clients.php' ?>
+      </div>
 
-<!--       <div class="section" id="contact">
-        <?php include 'contact.php' ?>
-        <?php include 'shared/social_networks.php' ?>
-      </div> -->
-
-      <hr>
-
-      <footer class="center">
-          <p>170 State Street, #2E | Brooklyn, NY 11201 | Phone: 347.549.4115 | E-mail: <a href="mailto:info@jmt-legal.com">info@jmt-legal.com</a></p>
+      <footer>
+          <p>170 State Street, #2E | Brooklyn, NY 11201 | (347) 549-4115 | <a href="mailto:info@jmt-legal.com">info@jmt-legal.com</a></p>
           <p>The Law Office of John M. Trani PLLC &copy; All rights reserved. Attorney advertising.</p>
       </footer>
 
