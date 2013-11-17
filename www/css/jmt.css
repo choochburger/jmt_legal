@@ -1,0 +1,19 @@
+@import url("styles.css");
+
+.client img {
+  border: 1px solid #ccc;
+  float: left;
+  margin-right: 20px;
+  width: 170px;
+}
+
+.client .text {
+  float: left;
+  width: 300px;
+}
+
+div.spacer-line {
+  background: #ccc;
+  height: 1px;
+  width: 100%;
+}

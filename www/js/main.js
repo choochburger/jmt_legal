@@ -1,77 +1,57 @@
 var JMT = {
   init: function() {
-    this.initNavLinks();
     this.initForm();
-  },
-
-  initNavLinks: function() {
-    $(window).on('hashchange', this.setCurrentSection);
-    this.setCurrentSection();
-  },
-
-  setCurrentSection: function() {
-    var section    = window.location.hash,
-        $sectionEl = $(section);
-
-    // default route
-    if (!$sectionEl.length) {
-      section = 'home';
-      $sectionEl = $('#'+section);
-    }
-
-    $('.section').hide();
-    $sectionEl.fadeIn();
-
-    $('.navbar .active').removeClass('active');
-    $('a[href="'+section+'"]').closest('li')
-                              .addClass('active');
-
-    // scroll to top for mobile
-    $(document).scrollTop(0);
   },
 
   initForm: function() {
     var showError;
 
     $(function() {
-      $("#contact .button").click(function() {
-        var name  = $("#form_name").val(),
-            email = $("#form_email").val(),
-            text  = $("#msg_text").val(),
-            dataString = 'name=' + name + '&email=' + email + '&text=' + text;
+      var $form = $('#contact_form'),
+          $contactBtn = $form.find('.btn'),
+          $response = $form.find('.response_message');
 
-        if (!name.length || !email.length || !text.length) {
-          showError('Please fill out all fields.');
+      $contactBtn.click(function(e) {
+        e.preventDefault();
+
+        var formData = {
+          name:  $('#form_name').val(),
+          email: $('#form_email').val(),
+          text:  $('#form_message').val()
+        };
+
+        if (!formData.email.length || !formData.text.length) {
+          showMessage('Please enter your email and a message.');
           return false;
         }
 
         $.ajax({
           type: "POST",
           url: "send_email.php",
-          data: dataString,
+          data: formData,
+          dataType: 'json',
           success: function(e) {
-            var e = JSON.parse(e);
             if (e.status === 'error') {
-              showError(e.message);
-              return;
+              showMessage(e.message);
+            } else {
+              $form.find('input, textarea').val('');
+              showMessage('Thank you for your message!');
             }
-
-            $('.email.error').hide();
-            $('.email.success').fadeIn(1000);
-            $('#contact .button').fadeOut();
           },
           error: function(e) {
-            showError(e.message);
+            showMessage(e.message);
           }
         });
 
         return false;
       });
 
-      showError = function(msg) {
-          $('.email.error').text(msg)
-                           .fadeIn(1000);
-      };
+      showMessage = function(msg) {
+        $response
+          .hide()
+          .text(msg)
+          .fadeIn(500);
+      }
     });
   }
 };
