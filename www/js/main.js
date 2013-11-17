@@ -1,7 +1,6 @@
 var JMT = {
   init: function() {
     this.initForm();
-    $('.thank .thanks').hide();
   },
 
   initForm: function() {
