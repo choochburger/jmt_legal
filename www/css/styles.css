@@ -29,7 +29,7 @@ body {
 	-webkit-font-smoothing: subpixel-antialiased;
 	-webkit-text-size-adjust: 100%;	
 	cursor:default;
-  background:url(../img/background.jpg) center bottom no-repeat #e9eff0;
+  background: #e9eff0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -322,7 +322,6 @@ img {
   border-bottom:2px solid #fff;
   padding:15px 24px 16px 22px; 
   background: transparent !important;
-  background:url(../img/menu-divider.png) right center no-repeat !important;
 }
 
 .navbar .nav > li:first-child > a {
