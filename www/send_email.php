@@ -6,12 +6,9 @@
 
     $response = array();
 
-    if ($name.length  == '' || 
-        $email.length == '' || 
-        $text.length  == ''   ) {
-
+    if (!$email || !$text ) {
       $response['status']  = 'error';
-      $response['message'] = 'All values are require. Please fill out the entire form.';
+      $response['message'] = 'Please enter your email and a message.';
 
       die(json_encode($response));
     }
