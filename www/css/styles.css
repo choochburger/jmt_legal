@@ -1,44 +1,44 @@
-/* --------------------------------------------------------	*/
-/*	Twitter Bootstrap */
-/*	Responsive media queries */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
+/*  Twitter Bootstrap */
+/*  Responsive media queries */
+/* -------------------------------------------------------- */
 
 @import url("bootstrap.min.css");
 @import url("bootstrap-responsive.min.css");
 
-/* --------------------------------------------------------	*/
-/*	Base */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
+/*  Base */
+/* -------------------------------------------------------- */
 
 ::-moz-selection { background: #999; color: #fff; text-shadow: none; }
 ::selection { background: #999; color: #fff; text-shadow: none; }
 :focus { outline-color: transparent!important; outline-style: none!important; }
 
 html {
-	overflow-y:scroll;
-	background:#fff;	
+  overflow-y:scroll;
+  background:#fff;
 }
 
 body {
-	margin: 0;
-	padding: 0;                      
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 13px;
-	line-height: 20px;
-	color: #8c8e90;
-	-webkit-font-smoothing: subpixel-antialiased;
-	-webkit-text-size-adjust: 100%;	
-	cursor:default;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: #8c8e90;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-text-size-adjust: 100%;
+  cursor:default;
   background: #e9eff0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial;  
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial;
   font-weight: normal;
-	line-height: 1.25;
- 	color: #3c3c3c;
+  line-height: 1.25;
+  color: #3c3c3c;
   margin:0px;
-	padding: 15px 0;
+  padding: 15px 0;
   clear:both;
 }
 
@@ -51,33 +51,33 @@ h1 {
 h2 {
   font-size:16px;
   font-weight: bold;
-	padding: 0 0 24px 0;
+  padding: 0 0 24px 0;
 }
 
 h3 {
   font-size:13px;
   line-height:22px;
- 	color: #323232;
-	padding: 12px 0;
+  color: #323232;
+  padding: 12px 0;
 }
 
 h4 {
   font-size:13px;
   line-height:22px;
- 	color: #323232;
-	padding: 10px 0;
+  color: #323232;
+  padding: 10px 0;
 }
 
 hr {
   height:0px;
-  border:1px solid #cbcfd1;  
+  border:1px solid #cbcfd1;
 }
 
 p {
   margin:15px 0px;
 }
 
-blockquote {        
+blockquote {
   color:#adb0b2;
   margin:15px 0px;
 }
@@ -96,9 +96,9 @@ img {
   width:100%;
 }
 
-/* --------------------------------------------------------	*/
-/*	Main Classes */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
+/*  Main Classes */
+/* -------------------------------------------------------- */
 
 .main{
   background:url(../img/pw_maze_white.png) #f3f3f3;
@@ -215,10 +215,10 @@ img {
   clear:both;
 }
 
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 /*  Header  */
-/* --------------------------------------------------------	*/
-  
+/* -------------------------------------------------------- */
+
 .logo img {
   width: 100px;
   margin-top :-5px;
@@ -246,16 +246,16 @@ img {
 .social-top {
   padding-top:6px;
   text-align:right;
-}    
+}
 
-  /* --------------------------------------------------------	*/
+  /* -------------------------------------------------------- */
   /*  Search  */
-  /* --------------------------------------------------------	*/
-  
+  /* -------------------------------------------------------- */
+
   .search-box{
     position:relative;
   }
-  
+
   .search {
     width:80%;
     height:30px;
@@ -265,7 +265,7 @@ img {
     padding-left:5%;
     padding-right:15%;
   }
-  
+
   .search-icon {
     position:absolute;
     font-size:20px;
@@ -274,21 +274,21 @@ img {
     color:#cbcfd1;
   }
 
-  /* --------------------------------------------------------	*/
+  /* -------------------------------------------------------- */
   /*  Slider  */
-  /* --------------------------------------------------------	*/
-    
+  /* -------------------------------------------------------- */
+
   #slider1 {
     width:100%;
     border-bottom:2px solid #cbcfd1;
   }
 
-/* --------------------------------------------------------	*/
-/*	Navigation */
-/* --------------------------------------------------------	*/
-  
+/* -------------------------------------------------------- */
+/*  Navigation */
+/* -------------------------------------------------------- */
+
 .navbar {
-  color:#8c8e90; 
+  color:#8c8e90;
   background:#fff;
   border-bottom:1px solid #cbcfd1;
   font-size:14px;
@@ -297,8 +297,8 @@ img {
 }
 
 .navbar .nav-responsive {
-	display:none;
-	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  display:none;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   line-height:20px;
   height:36px;
   border: 1px solid #cbcfd1;
@@ -317,10 +317,10 @@ img {
 }
 
 .navbar .nav > li > a {
-	color: #8c8e90 !important;
+  color: #8c8e90 !important;
   text-shadow: none;
   border-bottom:2px solid #fff;
-  padding:15px 24px 16px 22px; 
+  padding:15px 24px 16px 22px;
   background: transparent !important;
 }
 
@@ -333,80 +333,80 @@ img {
 }
 
 .navbar .nav > li:hover > a {
-	color:#00ce9b !important;
+  color:#00ce9b !important;
   border-bottom:2px solid #00ce9b !important;
 }
 
 .navbar .nav > li.active > a {
-	color:#00ce9b !important;
+  color:#00ce9b !important;
   border-bottom:2px solid #00ce9b !important;
   -webkit-box-shadow:rgba(0, 0, 0, 0) 0 0 0 !important;
   box-shadow:rgba(0, 0, 0, 0) 0 0 0 !important;
 }
 
-  /* --------------------------------------------------------	*/
-  /*	Dropdown */
-  /* --------------------------------------------------------	*/
-  
+  /* -------------------------------------------------------- */
+  /*  Dropdown */
+  /* -------------------------------------------------------- */
+
   .navbar .nav li.dropdown:hover {
-  	border-radius:0px;
-  	background:transparent;  
-    list-style-type:none;   
-    font-size:15px;   
+    border-radius:0px;
+    background:transparent;
+    list-style-type:none;
+    font-size:15px;
   }
-          
+
   .navbar .nav li ul {
-  	display:none;
-  	z-index:99;
-  	margin:0px; 
-    padding:10px 20px 10px 20px; 
-  	background:#f5f7f8;  
-    }     
-         
+    display:none;
+    z-index:99;
+    margin:0px;
+    padding:10px 20px 10px 20px;
+    background:#f5f7f8;
+    }
+
   .navbar .nav li:hover ul {
-  	position:absolute;
-  	display:block;
-  	list-style-type:none;
+    position:absolute;
+    display:block;
+    list-style-type:none;
     border:1px solid #d9dddf;
-  }  
-  
+  }
+
   .navbar .nav li ul li {
     font-size:13px;
-  	margin:0px;
-  	padding:0px;
-    width:160px;  
+    margin:0px;
+    padding:0px;
+    width:160px;
     background:url(../img/divider.png) left bottom repeat-x #f5f7f8;
-  	-webkit-transition:all 0.3s;
-  	-moz-transition:all 0.3s;
-  	-o-transition:all 0.3s;
-  	-ms-transition:all 0.3s;
-  	transition:all 0.3s;
-    
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    -ms-transition:all 0.3s;
+    transition:all 0.3s;
+
     border-bottom:1px solid #d9dddf;
   }
-  
+
   .navbar .nav li ul li:last-child {
      border-bottom:0px;
   }
-  
+
   .navbar .nav li ul li a {
     color:#8c8e90;
-  	padding:10px 0px 10px 0px;
-  	margin:0px;
-  	display:inline-block;
-  	text-decoration:none;
+    padding:10px 0px 10px 0px;
+    margin:0px;
+    display:inline-block;
+    text-decoration:none;
   }
-  
+
   .navbar .nav li ul li:hover a {
-  	color:#00ce9b;
+    color:#00ce9b;
   }
 
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 /*  Home  */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 
-.ic-1 {     
-  width:45px;  
+.ic-1 {
+  width:45px;
   height:30px;
   font-size:30px;
   float:left;
@@ -415,7 +415,7 @@ img {
 .ic-1 i {
   color:#3c3c3c;
 }
-   
+
 .title-1 {
   color:#3c3c3c;
   float:left;
@@ -423,7 +423,7 @@ img {
   line-height:30px;
 }
 
-.text-1 {     
+.text-1 {
   padding-left:45px;
   clear:both;
 }
@@ -466,7 +466,7 @@ img {
 
 .square-1:hover .img-bg-icon {
   display:block;
-} 
+}
 
 .date {
   width:40px;
@@ -485,11 +485,11 @@ img {
   width:80px;
   background:#c8ccce;
   border-bottom:2px solid #a5a8aa;
-}       
+}
 
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 /*  Lists  */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 
 .list-a, .list-b, .list-c {
   padding:0px;
@@ -533,9 +533,9 @@ img {
   text-decoration:none;
 }
 
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 /*  Client Say  */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 
 .client-say {
   border:1px solid #d9dddf;
@@ -565,14 +565,14 @@ img {
   padding-right:6px;
 }
 
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 /*  Progress Bar  */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 
 .progress {
   height:35px;
   border-radius:0px;
-  background:url(../img/progress-back.png) bottom left repeat-x #f5f7f8 !important; 
+  background:url(../img/progress-back.png) bottom left repeat-x #f5f7f8 !important;
   -webkit-box-shadow:rgba(0, 0, 0, 0) 0 0 0 inset;
   margin-bottom:8px;
 }
@@ -587,11 +587,11 @@ img {
   text-align:left !important;
   padding-left:30px !important;
 }
- 
-/* --------------------------------------------------------	*/
+
+/* -------------------------------------------------------- */
 /*  Buttons  */
-/* --------------------------------------------------------	*/
-  
+/* -------------------------------------------------------- */
+
 .btn {
   color:#fff;
   background:#a5a8aa;
@@ -614,24 +614,24 @@ img {
 .btn-gray2 {
   background:#5e6061;
   border-bottom:2px solid #3e4041;
-} 
+}
 
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 /*  Accordion  */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 
 .accordion-group {
   border-radius:0px !important;
 }
- 
+
 .accordion-heading {
   background:#f5f7f8;
 }
-     
-/* --------------------------------------------------------	*/
+
+/* -------------------------------------------------------- */
 /*  Alerts  */
-/* --------------------------------------------------------	*/
-       
+/* -------------------------------------------------------- */
+
 .alert {
   margin-bottom:9px;
   color:#c3c384;
@@ -641,7 +641,7 @@ img {
   border-bottom:2px solid #d1d188 !important;
   text-shadow:none !important;
 }
-  
+
 .alert-error {
   color:#ff7e7e;
   background:#ffe4e4;
@@ -663,9 +663,9 @@ img {
   border-bottom:2px solid #9eca9a !important;
 }
 
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 /*  Icons  */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 
 .icons-s1 {
   font-size:34px;
@@ -683,9 +683,9 @@ img {
   font-size:16px;
 }
 
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 /*  Tables  */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 
 table {
   width:100%;
@@ -695,14 +695,14 @@ table {
 th, td {
   border-radius:0px !important;
 }
-      
+
 th {
   background:#f5f7f8;
 }
-        
-/* --------------------------------------------------------	*/
+
+/* -------------------------------------------------------- */
 /*  Forms  */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 
 .form-main input, .form-main textarea {
   width:94.4% !important;
@@ -723,9 +723,9 @@ th {
   padding:5px 1.4% 5px 1.4%!important;
 }
 
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 /*  Paging  */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 
 .paging {
   width:30px;
@@ -748,9 +748,9 @@ th {
   text-decoration:none;
 }
 
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 /*  Blog Detail  */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 
 .blog-icon-container {
   position:relative;
@@ -770,9 +770,9 @@ th {
   top:50%;
   margin:-15px 0 0 -15px;
 }
-      
+
 .blog-date {
-  width:25%;              
+  width:25%;
   height:28px;
   line-height:28px;
   text-align:center;
@@ -800,42 +800,42 @@ th {
 
 .post-d-info a:hover {
   text-decoration:none !important;
-}     
-  
-  /* --------------------------------------------------------	*/
+}
+
+  /* -------------------------------------------------------- */
   /*  Comments  */
-  /* --------------------------------------------------------	*/
-  
+  /* -------------------------------------------------------- */
+
   .comment-title h2, .contact-form-title h2 {
     padding-bottom:5px;
   }
-  
-  
+
+
   .comment {
     margin-bottom:30px;
     padding-left:50px;
     background:url(../img/comment-img.png) left 4px no-repeat;
   }
-  
+
   .comment-date {
     color:#c8ccce;
   }
-  
+
   .c-margin-2 {
     margin-left:50px;
   }
-  
+
   .c-margin-3 {
     margin-left:100px;
   }
-  
+
   .thank {
     padding-top:12px;
-  }       
-    
-/* --------------------------------------------------------	*/
+  }
+
+/* -------------------------------------------------------- */
 /*  Pricing Tables  */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 
 .pricing-tables table {
   width:100%;
@@ -859,7 +859,7 @@ th {
 
 .price {
   font-size:36px !important;
-  padding-top:36px;   
+  padding-top:36px;
   line-height:30px;
 }
 
@@ -891,9 +891,9 @@ th {
   border-bottom:2px solid #00ae83 !important;
 }
 
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 /*  Page  */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 
 .page-image {
   float:left;
@@ -902,9 +902,9 @@ th {
   border-bottom: 2px solid #a5a8aa;
 }
 
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 /*  Contact  */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 
 #map {
   width:100%;
@@ -925,9 +925,9 @@ th {
   padding:25px 0px 20px 0px;
 }
 
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 /*  Side Bar  */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 
 .actual-section {
   height:85px;
@@ -935,18 +935,18 @@ th {
   text-align:right;
 }
 
-  /* --------------------------------------------------------	*/
-  /*	Flickr Widget */
-  /* --------------------------------------------------------	*/
-  
+  /* -------------------------------------------------------- */
+  /*  Flickr Widget */
+  /* -------------------------------------------------------- */
+
   .flickr-widget .photo-stream {
     border-bottom:2px solid #a5a8aa;
   }
 
-  /* --------------------------------------------------------	*/
+  /* -------------------------------------------------------- */
   /*  Tags  */
-  /* --------------------------------------------------------	*/
-  
+  /* -------------------------------------------------------- */
+
   .tag {
     height:20px;
     color:#fff;
@@ -957,25 +957,25 @@ th {
     margin-bottom:10px;
     float:left;
   }
-  
+
   .tag:hover {
     background:#00ce9b;
     border-bottom:2px solid #337cc1;
   }
 
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 /*  Testimonials  */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 
 .testimonials {
   background:#f5f7f8;
   border:1px solid #d9dddf;
-  padding:30px; 
+  padding:30px;
 }
 
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 /*  Arrows  */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
 
 .arrow {
   width:30px;
@@ -1003,9 +1003,9 @@ th {
   background-position: 0 -30px;
 }
 
-/* --------------------------------------------------------	*/
-/*	Portfolio */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
+/*  Portfolio */
+/* -------------------------------------------------------- */
 
 .portfolio{
   overflow:hidden;
@@ -1035,16 +1035,16 @@ th {
   border-bottom:2px solid #cbcfd1;
   padding:30px;
 }
-  
-  /* --------------------------------------------------------	*/
-  /*	Portfolio Filter */
-  /* --------------------------------------------------------	*/
+
+  /* -------------------------------------------------------- */
+  /*  Portfolio Filter */
+  /* -------------------------------------------------------- */
 
   #portfolio-filter{
     margin:0px;
     overflow:hidden;
   }
-    
+
   #portfolio-filter li {
     list-style:none;
     float:left;
@@ -1052,79 +1052,79 @@ th {
     margin-top:5px;
     padding:12px 0px;
   }
-    
+
   #portfolio-filter li a {
     padding:12px 15px;
     margin:0px;
     border:0px;
-  	color:#8c8e90;
+    color:#8c8e90;
   }
- 
+
   #portfolio-filter li:hover a {
     color:#fff;
     border-bottom:2px solid #00a97f;
     background: #00ce9b;
     text-decoration:none;
   }
-    
+
   #portfolio-filter li.active a {
     color:#fff;
     border-bottom:2px solid #00a97f;
     background: #00ce9b;
   }
 
-	/* --------------------------------------------------------	*/
-	/*	Portfolio - Isotype (filtering tags) */
-	/* --------------------------------------------------------	*/
+  /* -------------------------------------------------------- */
+  /*  Portfolio - Isotype (filtering tags) */
+  /* -------------------------------------------------------- */
 
-	.isotope-item {
-	  z-index: 2;
-	}
+  .isotope-item {
+    z-index: 2;
+  }
 
-	.isotope-hidden.isotope-item {
-	  pointer-events: none;
-	  z-index: 1;
-	}   
+  .isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+  }
 
-	/* Isotope CSS3 transitions */    
-	.isotope,	.isotope .isotope-item {
-	  -webkit-transition-duration: 0.4s;
-		 -moz-transition-duration: 0.4s;
-		  -ms-transition-duration: 0.4s;
-		   -o-transition-duration: 0.4s;
-			  transition-duration: 0.4s;
-	}
+  /* Isotope CSS3 transitions */
+  .isotope, .isotope .isotope-item {
+    -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+      -ms-transition-duration: 0.4s;
+       -o-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+  }
 
-	.isotope {
-	  -webkit-transition-property: height, width;
-		 -moz-transition-property: height, width;
-		  -ms-transition-property: height, width;
-		   -o-transition-property: height, width;
-			  transition-property: height, width;
-	}
+  .isotope {
+    -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+        transition-property: height, width;
+  }
 
-	.isotope .isotope-item {
-	  -webkit-transition-property: -webkit-transform, opacity;
-		 -moz-transition-property:    -moz-transform, opacity;
-		  -ms-transition-property:     -ms-transform, opacity;
-		   -o-transition-property:         top, left, opacity;
-			  transition-property:         transform, opacity;
-	} 
+  .isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:         top, left, opacity;
+        transition-property:         transform, opacity;
+  }
 
-	/* disabling Isotope CSS3 transitions */
-	.isotope.no-transition,
-	.isotope.no-transition .isotope-item,
-	.isotope .isotope-item.no-transition {
-	  -webkit-transition-duration: 0s;
-		 -moz-transition-duration: 0s;
-		  -ms-transition-duration: 0s;
-		   -o-transition-duration: 0s;
-			  transition-duration: 0s;
-	}                                      
+  /* disabling Isotope CSS3 transitions */
+  .isotope.no-transition,
+  .isotope.no-transition .isotope-item,
+  .isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+        transition-duration: 0s;
+  }
 
-/* --------------------------------------------------------	*/
-/*	Footer */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
+/*  Footer */
+/* -------------------------------------------------------- */
 
 #footer {
   padding:30px 41px 20px 41px;
@@ -1172,7 +1172,7 @@ th {
 
 #footer a:hover {
   color:#00ce9b;
-  text-decoration:none;       
+  text-decoration:none;
 }
 
 #footer a.t-link {
@@ -1183,7 +1183,7 @@ th {
 #footer a.t-link:hover {
   color:#00ce9b;
   text-decoration:none;
-  border-bottom:1px dotted #00ce9b;       
+  border-bottom:1px dotted #00ce9b;
 }
 
 .copyright {
@@ -1204,22 +1204,22 @@ th {
   margin-bottom:9px;
 }
 
-/* --------------------------------------------------------	*/
-/*	Newsletter */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
+/*  Newsletter */
+/* -------------------------------------------------------- */
 
   .newsletter-container {
     position:relative;
   }
-  
+
   .newsletter-container i:hover {
     color:#00ce9b;
   }
-  
+
   .newsletter-container form {
     margin:0px !important;
   }
-  
+
   .newsletter {
     width:81% !important;
     height:32px !important;
@@ -1232,7 +1232,7 @@ th {
     background:#272727 !important;
     margin:0px !important;
   }
-  
+
   .newsletter-button {
     position:absolute;
     top:6px;
@@ -1250,9 +1250,9 @@ th {
   #email {
     width:90%;
     padding:5%;
-    border:0px;  
+    border:0px;
   }
-  
+
   #waiting {
     position:absolute;
     top:0px;
@@ -1264,37 +1264,37 @@ th {
     color:#c8ccce;
     background:#1e1e1e;
   }
-  
+
   .success {
     width:90%;
     padding:8px 5%;
     color:#fff;
     background:#00ce9b;
   }
-  
+
   .error {
     width:90%;
     padding:8px 5%;
     color:#fff;
     background:#ad0c34;
-  }     
+  }
 
-/* --------------------------------------------------------	*/
-/*	Social Networks Icons */
-/* --------------------------------------------------------	*/
+/* -------------------------------------------------------- */
+/*  Social Networks Icons */
+/* -------------------------------------------------------- */
 
-.social-network { 
-	display:inline-block; 
-	background: url(../img/social-networks.png) no-repeat top left; 
-	width: 24px; 
-	height: 24px; 
-	background-position-y: 0; 
-	-webkit-transition:all 0.2s ease;
-	-moz-transition:all 0.2s ease;                                             
-	-o-transition:all 0.2s ease;
-	-ms-transition:all 0.2s ease;
-	transition:all 0.2s ease;
-	cursor:pointer;
+.social-network {
+  display:inline-block;
+  background: url(../img/social-networks.png) no-repeat top left;
+  width: 24px;
+  height: 24px;
+  background-position-y: 0;
+  -webkit-transition:all 0.2s ease;
+  -moz-transition:all 0.2s ease;
+  -o-transition:all 0.2s ease;
+  -ms-transition:all 0.2s ease;
+  transition:all 0.2s ease;
+  cursor:pointer;
   border:0px !important;
 }
 
